@@ -1,0 +1,13 @@
+uid: SR-0014
+type: system_requirement
+status: approved
+title: Case a record's positional parameters as public properties
+text: >-
+  Use PascalCase for the positional parameters of a record, because they become the
+  record's public properties; use camelCase for the primary constructor parameters of a
+  class or struct.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Identifiers — Naming Conventions"

@@ -1,0 +1,11 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: Use T for a single self-explanatory type parameter
+text: >-
+  Consider using T as the name of a type that has one single-letter type parameter.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Identifiers — Type Parameter Naming"

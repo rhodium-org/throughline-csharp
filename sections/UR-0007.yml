@@ -1,0 +1,11 @@
+uid: UR-0007
+type: user_requirement
+status: approved
+title: Exception Handling and Resource Management
+text: >-
+  Guidance on try-catch, using statements and event handlers.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — Exception Handling and Resource Management"

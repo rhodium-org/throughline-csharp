@@ -1,0 +1,13 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: Use only permitted Unicode characters in identifiers
+text: >-
+  After the first character, use only Unicode letter, decimal-digit, connecting, combining
+  or formatting characters; any character outside these categories is replaced with an
+  underscore.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Identifiers — Naming Rules"

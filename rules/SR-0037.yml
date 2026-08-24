@@ -1,0 +1,12 @@
+uid: SR-0037
+type: system_requirement
+status: approved
+title: Force initialization with required, not constructors
+text: >-
+  Use required properties instead of constructors to force initialisation of property
+  values.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — Object Instantiation and Initialization"

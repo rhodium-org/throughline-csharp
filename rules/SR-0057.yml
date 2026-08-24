@@ -1,0 +1,12 @@
+uid: SR-0057
+type: system_requirement
+status: approved
+title: Indent with four spaces, never tabs
+text: >-
+  Use four spaces for indentation and never use tab characters; keep the default
+  smart-indenting Code Editor settings with tabs saved as spaces.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Style — Layout Conventions"

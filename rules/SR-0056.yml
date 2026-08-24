@@ -1,0 +1,13 @@
+uid: SR-0056
+type: system_requirement
+status: approved
+title: Place using directives outside the namespace
+text: >-
+  Place using directives outside the namespace declaration, so each imported namespace
+  resolves by its fully qualified name and cannot be shadowed by a later-added nested
+  namespace.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — Namespaces and Using Directives"

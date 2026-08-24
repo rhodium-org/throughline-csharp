@@ -1,0 +1,11 @@
+uid: SR-0058
+type: system_requirement
+status: approved
+title: Write one statement and one declaration per line
+text: >-
+  Write only one statement per line and only one declaration per line.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Style — Layout Conventions"

@@ -1,0 +1,12 @@
+uid: SR-0061
+type: system_requirement
+status: approved
+title: Break a line before a binary operator
+text: >-
+  When a line break is needed, break before the binary operator, and indent any
+  continuation line one tab stop of four spaces if it is not indented automatically.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Style — Layout Conventions"

@@ -1,0 +1,11 @@
+uid: SR-0067
+type: system_requirement
+status: approved
+title: Begin a comment with a capital and end with a period
+text: >-
+  Begin comment text with an uppercase letter and end it with a period.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Style — Commenting Conventions"

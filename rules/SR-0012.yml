@@ -1,0 +1,11 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: End an attribute type name with Attribute
+text: >-
+  End the name of an attribute type with the word Attribute.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Identifiers — Naming Conventions"

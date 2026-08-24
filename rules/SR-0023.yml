@@ -1,0 +1,12 @@
+uid: SR-0023
+type: system_requirement
+status: approved
+title: Use language keyword type names, not runtime types
+text: >-
+  Use the language keyword for a data type rather than the runtime type — string not
+  System.String, int not System.Int32, including nint and nuint.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — General Guidelines"

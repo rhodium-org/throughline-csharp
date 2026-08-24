@@ -1,0 +1,11 @@
+uid: UR-0002
+type: user_requirement
+status: approved
+title: Naming Conventions
+text: >-
+  Conventions for the casing, prefixes and choice of identifier names.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Identifiers — Naming Conventions"

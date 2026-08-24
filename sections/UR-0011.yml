@@ -1,0 +1,11 @@
+uid: UR-0011
+type: user_requirement
+status: approved
+title: Layout Conventions
+text: >-
+  Conventions for indentation, line length, braces and statement layout.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Style — Layout Conventions"

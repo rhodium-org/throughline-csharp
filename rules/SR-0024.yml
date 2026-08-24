@@ -1,0 +1,13 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: Prefer int to unsigned types
+text: >-
+  Use int rather than an unsigned type, because int is common throughout C# and eases
+  interaction with other libraries; make an exception only when documenting unsigned types
+  specifically.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — General Guidelines"

@@ -1,0 +1,12 @@
+uid: SR-0030
+type: system_requirement
+status: approved
+title: Build strings in loops with StringBuilder
+text: >-
+  Use a System.Text.StringBuilder to append strings in a loop, especially when working
+  with large amounts of text.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — Strings, Collections and Delegates"

@@ -1,0 +1,12 @@
+uid: SR-0065
+type: system_requirement
+status: approved
+title: Use XML documentation comments for members
+text: >-
+  Use XML documentation comments to describe methods, classes, fields and all public
+  members.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Style — Commenting Conventions"

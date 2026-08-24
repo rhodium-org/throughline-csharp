@@ -1,0 +1,12 @@
+uid: SR-0010
+type: system_requirement
+status: approved
+title: Name all constants in PascalCase
+text: >-
+  Use PascalCase for every constant name, both fields and local constants, including
+  private and internal constants, to stay consistent across access modifiers.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Identifiers — Naming Conventions"

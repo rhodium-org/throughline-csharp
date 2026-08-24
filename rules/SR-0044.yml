@@ -1,0 +1,12 @@
+uid: SR-0044
+type: system_requirement
+status: approved
+title: Use var for the for-loop variable, but not foreach
+text: >-
+  Use implicit typing for the loop variable in a for loop, but use explicit typing for the
+  loop variable in a foreach loop, where the element type is rarely obvious.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — Implicit Typing and Operators"

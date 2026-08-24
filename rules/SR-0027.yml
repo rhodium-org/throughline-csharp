@@ -1,0 +1,12 @@
+uid: SR-0027
+type: system_requirement
+status: approved
+title: Write for clarity and simplicity
+text: >-
+  Write code with clarity and simplicity in mind and avoid overly complex, convoluted
+  logic.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — General Guidelines"

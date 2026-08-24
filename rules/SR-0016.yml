@@ -1,0 +1,12 @@
+uid: SR-0016
+type: system_requirement
+status: approved
+title: Avoid abbreviations, acronyms and single-letter names
+text: >-
+  Avoid abbreviations or acronyms except widely known ones, and avoid single-letter names
+  except for a simple loop counter.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Identifiers — Naming Conventions"

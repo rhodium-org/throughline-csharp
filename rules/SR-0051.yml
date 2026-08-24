@@ -1,0 +1,13 @@
+uid: SR-0051
+type: system_requirement
+status: approved
+title: Use implicit typing for query and range variables
+text: >-
+  Use implicit typing for query variables and range variables; this LINQ-specific guidance
+  overrides the general rules because queries often produce anonymous or nested generic
+  types.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — LINQ Queries"

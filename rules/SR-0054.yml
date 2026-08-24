@@ -1,0 +1,11 @@
+uid: SR-0054
+type: system_requirement
+status: approved
+title: Access inner collections with multiple from clauses
+text: >-
+  Access an inner collection with multiple from clauses rather than a join clause.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — LINQ Queries"

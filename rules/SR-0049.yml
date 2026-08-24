@@ -1,0 +1,12 @@
+uid: SR-0049
+type: system_requirement
+status: approved
+title: Alias anonymous-type members to correct Pascal casing
+text: >-
+  Use aliases to ensure the property names of an anonymous type are correctly capitalised
+  in Pascal casing.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — LINQ Queries"

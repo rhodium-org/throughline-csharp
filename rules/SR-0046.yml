@@ -1,0 +1,12 @@
+uid: SR-0046
+type: system_requirement
+status: approved
+title: Use && and || rather than & and | for comparisons
+text: >-
+  Use the short-circuiting && and || operators instead of & and | when performing
+  comparisons, to avoid evaluating a second clause that would fault.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — Implicit Typing and Operators"

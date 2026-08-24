@@ -1,0 +1,12 @@
+uid: SR-0059
+type: system_requirement
+status: approved
+title: Limit lines to 65 characters
+text: >-
+  Limit lines to 65 characters to keep code readable on the docs platform and on mobile
+  screens, breaking long statements across multiple lines.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Style — Layout Conventions"

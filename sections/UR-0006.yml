@@ -1,0 +1,11 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: Object Instantiation and Initialization
+text: >-
+  Guidance on the new operator, object initializers and required properties.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — Object Instantiation and Initialization"

@@ -1,0 +1,11 @@
+uid: SR-0032
+type: system_requirement
+status: approved
+title: Initialise every collection with a collection expression
+text: >-
+  Use a collection expression to initialise every collection type.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — Strings, Collections and Delegates"

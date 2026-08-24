@@ -1,0 +1,11 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: General Language Guidelines
+text: >-
+  Cross-cutting guidance on modern features, keywords, types and clarity.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — General Guidelines"

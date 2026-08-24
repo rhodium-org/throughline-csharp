@@ -1,0 +1,12 @@
+uid: SR-0048
+type: system_requirement
+status: approved
+title: Use meaningful names for query variables
+text: >-
+  Use meaningful names for query variables, such as seattleCustomers for customers located
+  in Seattle.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — LINQ Queries"

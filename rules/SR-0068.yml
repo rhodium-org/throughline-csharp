@@ -1,0 +1,11 @@
+uid: SR-0068
+type: system_requirement
+status: approved
+title: Put one space after the comment delimiter
+text: >-
+  Insert one space between the comment delimiter (//) and the comment text.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Style — Commenting Conventions"

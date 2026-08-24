@@ -1,0 +1,12 @@
+uid: SR-0039
+type: system_requirement
+status: approved
+title: Replace a Dispose-only try-finally with using
+text: >-
+  Where a try-finally statement's finally block only calls Dispose, use a using statement
+  instead.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — Exception Handling and Resource Management"

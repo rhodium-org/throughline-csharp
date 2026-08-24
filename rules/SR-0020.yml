@@ -1,0 +1,11 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: Prefix a descriptive type-parameter name with T
+text: >-
+  Prefix a descriptive type-parameter name with T, as in TSession or TInput.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Identifiers — Type Parameter Naming"

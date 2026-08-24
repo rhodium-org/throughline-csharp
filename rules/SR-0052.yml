@@ -1,0 +1,11 @@
+uid: SR-0052
+type: system_requirement
+status: approved
+title: Align query clauses under the from clause
+text: >-
+  Align the query clauses under the from clause.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — LINQ Queries"

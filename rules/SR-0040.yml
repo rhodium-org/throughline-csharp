@@ -1,0 +1,12 @@
+uid: SR-0040
+type: system_requirement
+status: approved
+title: Prefer the braceless using declaration
+text: >-
+  Prefer the using declaration syntax that needs no braces when a single scope owns the
+  disposable for its lifetime.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — Exception Handling and Resource Management"

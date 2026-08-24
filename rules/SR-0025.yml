@@ -1,0 +1,12 @@
+uid: SR-0025
+type: system_requirement
+status: approved
+title: Catch only exceptions you can handle, using specific types
+text: >-
+  Catch only exceptions you can properly handle and use specific exception types for
+  meaningful messages; do not catch System.Exception without an exception filter.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — General Guidelines"

@@ -1,0 +1,11 @@
+uid: UR-0001
+type: user_requirement
+status: approved
+title: Naming Rules
+text: >-
+  Rules the compiler enforces for a valid identifier name.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Identifiers — Naming Rules"

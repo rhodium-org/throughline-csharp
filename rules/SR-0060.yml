@@ -1,0 +1,12 @@
+uid: SR-0060
+type: system_requirement
+status: approved
+title: Use Allman braces aligned to the indentation level
+text: >-
+  Use the Allman brace style: put each opening and closing brace on its own new line,
+  lined up with the current indentation level.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Style — Layout Conventions"

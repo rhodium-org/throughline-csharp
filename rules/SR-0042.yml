@@ -1,0 +1,13 @@
+uid: SR-0042
+type: system_requirement
+status: approved
+title: Use var only when the type is obvious from the right side
+text: >-
+  Use implicit typing (var) for a local variable only when a reader can infer its type
+  from the right side of the assignment — a new expression, an explicit cast, or a literal
+  value.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — Implicit Typing and Operators"

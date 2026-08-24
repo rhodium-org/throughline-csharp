@@ -1,0 +1,12 @@
+uid: SR-0063
+type: system_requirement
+status: approved
+title: Use parentheses to make expression clauses apparent
+text: >-
+  Use parentheses to make the clauses of an expression apparent, except where the sample
+  is explaining operator or expression precedence.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Style — Layout Conventions"

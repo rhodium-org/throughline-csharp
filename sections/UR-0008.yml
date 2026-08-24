@@ -1,0 +1,11 @@
+uid: UR-0008
+type: user_requirement
+status: approved
+title: Implicit Typing and Operators
+text: >-
+  Guidance on var, conditional logical operators and static member access.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — Implicit Typing and Operators"

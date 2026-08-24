@@ -1,0 +1,13 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: Prefix a keyword identifier with @ when unavoidable
+text: >-
+  Use the @ prefix to declare an identifier that matches a C# keyword; the @ is not part
+  of the name and such verbatim identifiers are primarily for interoperability with other
+  languages.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Identifiers — Naming Rules"

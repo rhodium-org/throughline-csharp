@@ -1,0 +1,11 @@
+uid: UR-0005
+type: user_requirement
+status: approved
+title: Strings, Collections and Delegates
+text: >-
+  Guidance on string building, collection initialisation and delegate use.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — Strings, Collections and Delegates"

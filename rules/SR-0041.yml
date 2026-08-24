@@ -1,0 +1,11 @@
+uid: SR-0041
+type: system_requirement
+status: approved
+title: Use a lambda for a handler you never remove
+text: >-
+  Use a lambda expression to define an event handler that you do not need to detach later.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Language — Exception Handling and Resource Management"

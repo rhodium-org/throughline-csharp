@@ -1,0 +1,11 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: Start every identifier with a letter or underscore
+text: >-
+  Start every identifier with a letter or an underscore (_).
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Microsoft C# Coding Conventions: Identifiers — Naming Rules"
