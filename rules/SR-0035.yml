@@ -1,13 +1,14 @@
 uid: SR-0035
 type: system_requirement
-status: approved
+status: proposed
 title: Use a concise instantiation form when types match
-text: >-
-  Use a concise object-instantiation form (var x = new T() or T x = new()) when the
-  variable type matches the object type; this form is not valid when the variable is an
-  interface or a base class of the runtime type.
+text: Use a concise object-instantiation form (var x = new T() or T x = new()) when
+  the variable type matches the object type; this form is not valid when the variable
+  is an interface or a base class of the runtime type.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Microsoft C# Coding Conventions: Language — Object Instantiation and Initialization"
+  source_ref: 'Microsoft C# Coding Conventions: Language — Object Instantiation and
+    Initialization'

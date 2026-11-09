@@ -1,12 +1,12 @@
 uid: SR-0026
 type: system_requirement
-status: approved
+status: proposed
 title: Use async and await for I/O-bound work
-text: >-
-  Use asynchronous programming with async and await for I/O-bound operations, be cautious
-  of deadlocks, and use Task.ConfigureAwait where appropriate.
+text: Use asynchronous programming with async and await for I/O-bound operations,
+  be cautious of deadlocks, and use Task.ConfigureAwait where appropriate.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Microsoft C# Coding Conventions: Language — General Guidelines"
+  source_ref: 'Microsoft C# Coding Conventions: Language — General Guidelines'

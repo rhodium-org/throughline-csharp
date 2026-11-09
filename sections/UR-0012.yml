@@ -1,11 +1,11 @@
 uid: UR-0012
 type: user_requirement
-status: approved
+status: proposed
 title: Commenting Conventions
-text: >-
-  Conventions for comment style, placement and documentation comments.
+text: Conventions for comment style, placement and documentation comments.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Microsoft C# Coding Conventions: Style — Commenting Conventions"
+  source_ref: 'Microsoft C# Coding Conventions: Style — Commenting Conventions'

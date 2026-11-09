@@ -1,11 +1,12 @@
 uid: SR-0009
 type: system_requirement
-status: approved
+status: proposed
 title: Prefix private or internal static fields with s_
-text: >-
-  Prefix a private or internal static field with s_, and a thread-static field with t_.
+text: Prefix a private or internal static field with s_, and a thread-static field
+  with t_.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Microsoft C# Coding Conventions: Identifiers — Naming Conventions"
+  source_ref: 'Microsoft C# Coding Conventions: Identifiers — Naming Conventions'

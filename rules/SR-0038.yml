@@ -1,12 +1,13 @@
 uid: SR-0038
 type: system_requirement
-status: approved
+status: proposed
 title: Use try-catch for most exception handling
-text: >-
-  Use a try-catch statement for most exception handling, and rethrow with a bare throw to
-  preserve the original stack trace.
+text: Use a try-catch statement for most exception handling, and rethrow with a bare
+  throw to preserve the original stack trace.
+normative: true
 links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: "Microsoft C# Coding Conventions: Language — Exception Handling and Resource Management"
+  source_ref: 'Microsoft C# Coding Conventions: Language — Exception Handling and
+    Resource Management'

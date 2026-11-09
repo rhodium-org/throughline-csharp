@@ -1,11 +1,11 @@
 uid: UR-0010
 type: user_requirement
-status: approved
+status: proposed
 title: Namespaces and Using Directives
-text: >-
-  Guidance on namespace declarations and the placement of using directives.
+text: Guidance on namespace declarations and the placement of using directives.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Microsoft C# Coding Conventions: Language — Namespaces and Using Directives"
+  source_ref: 'Microsoft C# Coding Conventions: Language — Namespaces and Using Directives'

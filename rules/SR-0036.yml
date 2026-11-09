@@ -1,12 +1,13 @@
 uid: SR-0036
 type: system_requirement
-status: approved
+status: proposed
 title: Use object initializers to simplify creation
-text: >-
-  Use object initializers to simplify object creation rather than assigning each property
-  on its own line.
+text: Use object initializers to simplify object creation rather than assigning each
+  property on its own line.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Microsoft C# Coding Conventions: Language — Object Instantiation and Initialization"
+  source_ref: 'Microsoft C# Coding Conventions: Language — Object Instantiation and
+    Initialization'

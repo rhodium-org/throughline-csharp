@@ -1,12 +1,12 @@
 uid: SR-0004
 type: system_requirement
-status: approved
+status: proposed
 title: Never use two consecutive underscores in a name
-text: >-
-  Do not use two consecutive underscore (__) characters in an identifier; those names are
-  reserved for compiler-generated identifiers.
+text: Do not use two consecutive underscore (__) characters in an identifier; those
+  names are reserved for compiler-generated identifiers.
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "Microsoft C# Coding Conventions: Identifiers — Naming Rules"
+  source_ref: 'Microsoft C# Coding Conventions: Identifiers — Naming Rules'

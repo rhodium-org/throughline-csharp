@@ -1,12 +1,12 @@
 uid: SR-0021
 type: system_requirement
-status: approved
+status: proposed
 title: Encode a type parameter's constraint in its name
-text: >-
-  Consider indicating a constraint placed on a type parameter in its name; a parameter
-  constrained to ISession might be called TSession.
+text: Consider indicating a constraint placed on a type parameter in its name; a
+  parameter constrained to ISession might be called TSession.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "Microsoft C# Coding Conventions: Identifiers — Type Parameter Naming"
+  source_ref: 'Microsoft C# Coding Conventions: Identifiers — Type Parameter Naming'

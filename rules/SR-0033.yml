@@ -1,12 +1,13 @@
 uid: SR-0033
 type: system_requirement
-status: approved
+status: proposed
 title: Use Func<> and Action<> instead of custom delegate types
-text: >-
-  Use Func<> and Action<> instead of defining your own delegate types, and call the method
-  through the signature the delegate defines.
+text: Use Func<> and Action<> instead of defining your own delegate types, and call
+  the method through the signature the delegate defines.
+normative: true
 links:
 - target: UR-0005
   type: implements
 attrs:
-  source_ref: "Microsoft C# Coding Conventions: Language — Strings, Collections and Delegates"
+  source_ref: 'Microsoft C# Coding Conventions: Language — Strings, Collections and
+    Delegates'

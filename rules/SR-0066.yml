@@ -1,11 +1,11 @@
 uid: SR-0066
 type: system_requirement
-status: approved
+status: proposed
 title: Place a comment on its own line, not at line end
-text: >-
-  Place a comment on a separate line rather than at the end of a line of code.
+text: Place a comment on a separate line rather than at the end of a line of code.
+normative: true
 links:
 - target: UR-0012
   type: implements
 attrs:
-  source_ref: "Microsoft C# Coding Conventions: Style — Commenting Conventions"
+  source_ref: 'Microsoft C# Coding Conventions: Style — Commenting Conventions'
